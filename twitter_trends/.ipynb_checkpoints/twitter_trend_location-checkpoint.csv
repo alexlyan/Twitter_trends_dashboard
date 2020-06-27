@@ -1,0 +1,468 @@
+,name,placeType,url,parentid,country,woeid,countryCode
+0,Worldwide,"{'code': 19, 'name': 'Supername'}",http://where.yahooapis.com/v1/place/1,0,,1,
+1,Winnipeg,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2972,23424775,Canada,2972,CA
+2,Ottawa,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/3369,23424775,Canada,3369,CA
+3,Quebec,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/3444,23424775,Canada,3444,CA
+4,Montreal,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/3534,23424775,Canada,3534,CA
+5,Toronto,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/4118,23424775,Canada,4118,CA
+6,Edmonton,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/8676,23424775,Canada,8676,CA
+7,Calgary,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/8775,23424775,Canada,8775,CA
+8,Vancouver,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/9807,23424775,Canada,9807,CA
+9,Birmingham,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/12723,23424975,United Kingdom,12723,GB
+10,Blackpool,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/12903,23424975,United Kingdom,12903,GB
+11,Bournemouth,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/13383,23424975,United Kingdom,13383,GB
+12,Brighton,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/13911,23424975,United Kingdom,13911,GB
+13,Bristol,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/13963,23424975,United Kingdom,13963,GB
+14,Cardiff,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/15127,23424975,United Kingdom,15127,GB
+15,Coventry,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/17044,23424975,United Kingdom,17044,GB
+16,Derby,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/18114,23424975,United Kingdom,18114,GB
+17,Edinburgh,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/19344,23424975,United Kingdom,19344,GB
+18,Glasgow,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/21125,23424975,United Kingdom,21125,GB
+19,Hull,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/25211,23424975,United Kingdom,25211,GB
+20,Leeds,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/26042,23424975,United Kingdom,26042,GB
+21,Leicester,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/26062,23424975,United Kingdom,26062,GB
+22,Liverpool,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/26734,23424975,United Kingdom,26734,GB
+23,Manchester,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/28218,23424975,United Kingdom,28218,GB
+24,Middlesbrough,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/28869,23424975,United Kingdom,28869,GB
+25,Newcastle,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/30079,23424975,United Kingdom,30079,GB
+26,Nottingham,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/30720,23424975,United Kingdom,30720,GB
+27,Plymouth,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/32185,23424975,United Kingdom,32185,GB
+28,Portsmouth,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/32452,23424975,United Kingdom,32452,GB
+29,Preston,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/32566,23424975,United Kingdom,32566,GB
+30,Sheffield,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/34503,23424975,United Kingdom,34503,GB
+31,Stoke-on-Trent,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/36240,23424975,United Kingdom,36240,GB
+32,Swansea,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/36758,23424975,United Kingdom,36758,GB
+33,London,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/44418,23424975,United Kingdom,44418,GB
+34,Belfast,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/44544,23424975,United Kingdom,44544,GB
+35,Santo Domingo,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/76456,23424800,Dominican Republic,76456,DO
+36,Guatemala City,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/83123,23424834,Guatemala,83123,GT
+37,Acapulco,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/110978,23424900,Mexico,110978,MX
+38,Aguascalientes,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/111579,23424900,Mexico,111579,MX
+39,Chihuahua,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/115958,23424900,Mexico,115958,MX
+40,Mexico City,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/116545,23424900,Mexico,116545,MX
+41,Ciudad Juarez,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/116556,23424900,Mexico,116556,MX
+42,Nezahualcóyotl,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/116564,23424900,Mexico,116564,MX
+43,Culiacán,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/117994,23424900,Mexico,117994,MX
+44,Ecatepec de Morelos,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/118466,23424900,Mexico,118466,MX
+45,Guadalajara,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/124162,23424900,Mexico,124162,MX
+46,Hermosillo,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/124785,23424900,Mexico,124785,MX
+47,León,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/131068,23424900,Mexico,131068,MX
+48,Mérida,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/133327,23424900,Mexico,133327,MX
+49,Mexicali,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/133475,23424900,Mexico,133475,MX
+50,Monterrey,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/134047,23424900,Mexico,134047,MX
+51,Morelia,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/134091,23424900,Mexico,134091,MX
+52,Naucalpan de Juárez,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/134395,23424900,Mexico,134395,MX
+53,Puebla,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/137612,23424900,Mexico,137612,MX
+54,Querétaro,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/138045,23424900,Mexico,138045,MX
+55,Saltillo,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/141272,23424900,Mexico,141272,MX
+56,San Luis Potosí,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/144265,23424900,Mexico,144265,MX
+57,Tijuana,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/149361,23424900,Mexico,149361,MX
+58,Toluca,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/149769,23424900,Mexico,149769,MX
+59,Zapopan,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/151582,23424900,Mexico,151582,MX
+60,Mendoza,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/332471,23424747,Argentina,332471,AR
+61,Santiago,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/349859,23424782,Chile,349859,CL
+62,Concepcion,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/349860,23424782,Chile,349860,CL
+63,Valparaiso,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/349861,23424782,Chile,349861,CL
+64,Bogotá,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/368148,23424787,Colombia,368148,CO
+65,Cali,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/368149,23424787,Colombia,368149,CO
+66,Medellín,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/368150,23424787,Colombia,368150,CO
+67,Barranquilla,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/368151,23424787,Colombia,368151,CO
+68,Quito,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/375732,23424801,Ecuador,375732,EC
+69,Guayaquil,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/375733,23424801,Ecuador,375733,EC
+70,Caracas,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/395269,23424982,Venezuela,395269,VE
+71,Maracaibo,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/395270,23424982,Venezuela,395270,VE
+72,Maracay,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/395271,23424982,Venezuela,395271,VE
+73,Valencia,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/395272,23424982,Venezuela,395272,VE
+74,Barcelona,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/395273,23424982,Venezuela,395273,VE
+75,Ciudad Guayana,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/395275,23424982,Venezuela,395275,VE
+76,Turmero,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/395277,23424982,Venezuela,395277,VE
+77,Lima,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/418440,23424919,Peru,418440,PE
+78,Brasília,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/455819,23424768,Brazil,455819,BR
+79,Belém,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/455820,23424768,Brazil,455820,BR
+80,Belo Horizonte,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/455821,23424768,Brazil,455821,BR
+81,Curitiba,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/455822,23424768,Brazil,455822,BR
+82,Porto Alegre,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/455823,23424768,Brazil,455823,BR
+83,Recife,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/455824,23424768,Brazil,455824,BR
+84,Rio de Janeiro,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/455825,23424768,Brazil,455825,BR
+85,Salvador,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/455826,23424768,Brazil,455826,BR
+86,São Paulo,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/455827,23424768,Brazil,455827,BR
+87,Campinas,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/455828,23424768,Brazil,455828,BR
+88,Fortaleza,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/455830,23424768,Brazil,455830,BR
+89,Goiânia,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/455831,23424768,Brazil,455831,BR
+90,Manaus,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/455833,23424768,Brazil,455833,BR
+91,São Luís,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/455834,23424768,Brazil,455834,BR
+92,Guarulhos,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/455867,23424768,Brazil,455867,BR
+93,Córdoba,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/466861,23424747,Argentina,466861,AR
+94,Rosario,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/466862,23424747,Argentina,466862,AR
+95,Barquisimeto,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/468382,23424982,Venezuela,468382,VE
+96,Maturín,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/468384,23424982,Venezuela,468384,VE
+97,Buenos Aires,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/468739,23424747,Argentina,468739,AR
+98,Gdańsk,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/493417,23424923,Poland,493417,PL
+99,Kraków,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/502075,23424923,Poland,502075,PL
+100,Lodz,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/505120,23424923,Poland,505120,PL
+101,Poznań,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/514048,23424923,Poland,514048,PL
+102,Warsaw,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/523920,23424923,Poland,523920,PL
+103,Wroclaw,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/526363,23424923,Poland,526363,PL
+104,Vienna,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/551801,23424750,Austria,551801,AT
+105,Cork,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/560472,23424803,Ireland,560472,IE
+106,Dublin,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/560743,23424803,Ireland,560743,IE
+107,Galway,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/560912,23424803,Ireland,560912,IE
+108,Bordeaux,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/580778,23424819,France,580778,FR
+109,Lille,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/608105,23424819,France,608105,FR
+110,Lyon,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/609125,23424819,France,609125,FR
+111,Marseille,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/610264,23424819,France,610264,FR
+112,Montpellier,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/612977,23424819,France,612977,FR
+113,Nantes,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/613858,23424819,France,613858,FR
+114,Paris,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/615702,23424819,France,615702,FR
+115,Rennes,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/619163,23424819,France,619163,FR
+116,Strasbourg,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/627791,23424819,France,627791,FR
+117,Toulouse,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/628886,23424819,France,628886,FR
+118,Berlin,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/638242,23424829,Germany,638242,DE
+119,Bremen,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/641142,23424829,Germany,641142,DE
+120,Dortmund,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/645458,23424829,Germany,645458,DE
+121,Dresden,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/645686,23424829,Germany,645686,DE
+122,Dusseldorf,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/646099,23424829,Germany,646099,DE
+123,Essen,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/648820,23424829,Germany,648820,DE
+124,Frankfurt,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/650272,23424829,Germany,650272,DE
+125,Hamburg,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/656958,23424829,Germany,656958,DE
+126,Cologne,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/667931,23424829,Germany,667931,DE
+127,Leipzig,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/671072,23424829,Germany,671072,DE
+128,Munich,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/676757,23424829,Germany,676757,DE
+129,Stuttgart,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/698064,23424829,Germany,698064,DE
+130,Bologna,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/711080,23424853,Italy,711080,IT
+131,Genoa,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/716085,23424853,Italy,716085,IT
+132,Milan,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/718345,23424853,Italy,718345,IT
+133,Naples,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/719258,23424853,Italy,719258,IT
+134,Palermo,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/719846,23424853,Italy,719846,IT
+135,Rome,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/721943,23424853,Italy,721943,IT
+136,Turin,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/725003,23424853,Italy,725003,IT
+137,Den Haag,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/726874,23424909,Netherlands,726874,NL
+138,Amsterdam,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/727232,23424909,Netherlands,727232,NL
+139,Rotterdam,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/733075,23424909,Netherlands,733075,NL
+140,Utrecht,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/734047,23424909,Netherlands,734047,NL
+141,Barcelona,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/753692,23424950,Spain,753692,ES
+142,Bilbao,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/754542,23424950,Spain,754542,ES
+143,Las Palmas,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/764814,23424950,Spain,764814,ES
+144,Madrid,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/766273,23424950,Spain,766273,ES
+145,Malaga,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/766356,23424950,Spain,766356,ES
+146,Murcia,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/768026,23424950,Spain,768026,ES
+147,Palma,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/769293,23424950,Spain,769293,ES
+148,Seville,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/774508,23424950,Spain,774508,ES
+149,Valencia,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/776688,23424950,Spain,776688,ES
+150,Zaragoza,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/779063,23424950,Spain,779063,ES
+151,Geneva,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/782538,23424957,Switzerland,782538,CH
+152,Lausanne,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/783058,23424957,Switzerland,783058,CH
+153,Zurich,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/784794,23424957,Switzerland,784794,CH
+154,Brest,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/824382,23424765,Belarus,824382,BY
+155,Grodno,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/825848,23424765,Belarus,825848,BY
+156,Gomel,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/825978,23424765,Belarus,825978,BY
+157,Minsk,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/834463,23424765,Belarus,834463,BY
+158,Riga,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/854823,23424874,Latvia,854823,LV
+159,Bergen,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/857105,23424910,Norway,857105,NO
+160,Oslo,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/862592,23424910,Norway,862592,NO
+161,Gothenburg,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/890869,23424954,Sweden,890869,SE
+162,Stockholm,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/906057,23424954,Sweden,906057,SE
+163,Dnipropetrovsk,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/918981,23424976,Ukraine,918981,UA
+164,Donetsk,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/919163,23424976,Ukraine,919163,UA
+165,Kharkiv,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/922137,23424976,Ukraine,922137,UA
+166,Kyiv,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/924938,23424976,Ukraine,924938,UA
+167,Lviv,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/924943,23424976,Ukraine,924943,UA
+168,Odesa,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/929398,23424976,Ukraine,929398,UA
+169,Zaporozhye,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/939628,23424976,Ukraine,939628,UA
+170,Athens,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/946738,23424833,Greece,946738,GR
+171,Thessaloniki,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/963291,23424833,Greece,963291,GR
+172,Bekasi,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1030077,23424846,Indonesia,1030077,ID
+173,Depok,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1032539,23424846,Indonesia,1032539,ID
+174,Pekanbaru,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1040779,23424846,Indonesia,1040779,ID
+175,Surabaya,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1044316,23424846,Indonesia,1044316,ID
+176,Makassar,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1046138,23424846,Indonesia,1046138,ID
+177,Bandung,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1047180,23424846,Indonesia,1047180,ID
+178,Jakarta,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1047378,23424846,Indonesia,1047378,ID
+179,Medan,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1047908,23424846,Indonesia,1047908,ID
+180,Palembang,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1048059,23424846,Indonesia,1048059,ID
+181,Semarang,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1048324,23424846,Indonesia,1048324,ID
+182,Tangerang,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1048536,23424846,Indonesia,1048536,ID
+183,Singapore,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1062617,23424948,Singapore,1062617,SG
+184,Perth,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1098081,23424748,Australia,1098081,AU
+185,Adelaide,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1099805,23424748,Australia,1099805,AU
+186,Brisbane,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1100661,23424748,Australia,1100661,AU
+187,Canberra,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1100968,23424748,Australia,1100968,AU
+188,Darwin,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1101597,23424748,Australia,1101597,AU
+189,Melbourne,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1103816,23424748,Australia,1103816,AU
+190,Sydney,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1105779,23424748,Australia,1105779,AU
+191,Kitakyushu,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1110809,23424856,Japan,1110809,JP
+192,Saitama,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1116753,23424856,Japan,1116753,JP
+193,Chiba,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1117034,23424856,Japan,1117034,JP
+194,Fukuoka,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1117099,23424856,Japan,1117099,JP
+195,Hamamatsu,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1117155,23424856,Japan,1117155,JP
+196,Hiroshima,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1117227,23424856,Japan,1117227,JP
+197,Kawasaki,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1117502,23424856,Japan,1117502,JP
+198,Kobe,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1117545,23424856,Japan,1117545,JP
+199,Kumamoto,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1117605,23424856,Japan,1117605,JP
+200,Nagoya,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1117817,23424856,Japan,1117817,JP
+201,Niigata,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1117881,23424856,Japan,1117881,JP
+202,Sagamihara,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1118072,23424856,Japan,1118072,JP
+203,Sapporo,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1118108,23424856,Japan,1118108,JP
+204,Sendai,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1118129,23424856,Japan,1118129,JP
+205,Takamatsu,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1118285,23424856,Japan,1118285,JP
+206,Tokyo,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1118370,23424856,Japan,1118370,JP
+207,Yokohama,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1118550,23424856,Japan,1118550,JP
+208,Goyang,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1130853,23424868,Korea,1130853,KR
+209,Yongin,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1132094,23424868,Korea,1132094,KR
+210,Ansan,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1132444,23424868,Korea,1132444,KR
+211,Bucheon,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1132445,23424868,Korea,1132445,KR
+212,Busan,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1132447,23424868,Korea,1132447,KR
+213,Changwon,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1132449,23424868,Korea,1132449,KR
+214,Daegu,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1132466,23424868,Korea,1132466,KR
+215,Gwangju,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1132481,23424868,Korea,1132481,KR
+216,Incheon,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1132496,23424868,Korea,1132496,KR
+217,Seongnam,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1132559,23424868,Korea,1132559,KR
+218,Suwon,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1132567,23424868,Korea,1132567,KR
+219,Ulsan,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1132578,23424868,Korea,1132578,KR
+220,Seoul,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1132599,23424868,Korea,1132599,KR
+221,Kajang,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1141268,23424901,Malaysia,1141268,MY
+222,Ipoh,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1154679,23424901,Malaysia,1154679,MY
+223,Johor Bahru,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1154698,23424901,Malaysia,1154698,MY
+224,Klang,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1154726,23424901,Malaysia,1154726,MY
+225,Kuala Lumpur,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1154781,23424901,Malaysia,1154781,MY
+226,Calocan,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1167715,23424934,Philippines,1167715,PH
+227,Makati,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1180689,23424934,Philippines,1180689,PH
+228,Pasig,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1187115,23424934,Philippines,1187115,PH
+229,Taguig,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1195098,23424934,Philippines,1195098,PH
+230,Antipolo,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1198785,23424934,Philippines,1198785,PH
+231,Cagayan de Oro,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1199002,23424934,Philippines,1199002,PH
+232,Cebu City,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1199079,23424934,Philippines,1199079,PH
+233,Davao City,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1199136,23424934,Philippines,1199136,PH
+234,Manila,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1199477,23424934,Philippines,1199477,PH
+235,Quezon City,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1199682,23424934,Philippines,1199682,PH
+236,Zamboanga City,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1199980,23424934,Philippines,1199980,PH
+237,Bangkok,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1225448,23424960,Thailand,1225448,TH
+238,Hanoi,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1236594,23424984,Vietnam,1236594,VN
+239,Hai Phong,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1236690,23424984,Vietnam,1236690,VN
+240,Can Tho,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1252351,23424984,Vietnam,1252351,VN
+241,Da Nang,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1252376,23424984,Vietnam,1252376,VN
+242,Ho Chi Minh City,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1252431,23424984,Vietnam,1252431,VN
+243,Algiers,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1253079,23424740,Algeria,1253079,DZ
+244,Accra,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1326075,23424824,Ghana,1326075,GH
+245,Kumasi,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1330595,23424824,Ghana,1330595,GH
+246,Benin City,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1387660,23424908,Nigeria,1387660,NG
+247,Ibadan,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1393672,23424908,Nigeria,1393672,NG
+248,Kaduna,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1396439,23424908,Nigeria,1396439,NG
+249,Kano,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1396803,23424908,Nigeria,1396803,NG
+250,Lagos,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1398823,23424908,Nigeria,1398823,NG
+251,Port Harcourt,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1404447,23424908,Nigeria,1404447,NG
+252,Giza,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1521643,23424802,Egypt,1521643,EG
+253,Cairo,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1521894,23424802,Egypt,1521894,EG
+254,Alexandria,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1522006,23424802,Egypt,1522006,EG
+255,Mombasa,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1528335,23424863,Kenya,1528335,KE
+256,Nairobi,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1528488,23424863,Kenya,1528488,KE
+257,Durban,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1580913,23424942,South Africa,1580913,ZA
+258,Johannesburg,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1582504,23424942,South Africa,1582504,ZA
+259,Port Elizabeth,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1586614,23424942,South Africa,1586614,ZA
+260,Pretoria,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1586638,23424942,South Africa,1586638,ZA
+261,Soweto,"{'code': 22, 'name': 'Unknown'}",http://where.yahooapis.com/v1/place/1587677,23424942,South Africa,1587677,ZA
+262,Cape Town,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1591691,23424942,South Africa,1591691,ZA
+263,Medina,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1937801,23424938,Saudi Arabia,1937801,SA
+264,Dammam,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1939574,23424938,Saudi Arabia,1939574,SA
+265,Riyadh,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1939753,23424938,Saudi Arabia,1939753,SA
+266,Jeddah,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1939873,23424938,Saudi Arabia,1939873,SA
+267,Mecca,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1939897,23424938,Saudi Arabia,1939897,SA
+268,Sharjah,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1940119,23424738,United Arab Emirates,1940119,AE
+269,Abu Dhabi,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1940330,23424738,United Arab Emirates,1940330,AE
+270,Dubai,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1940345,23424738,United Arab Emirates,1940345,AE
+271,Haifa,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1967449,23424852,Israel,1967449,IL
+272,Tel Aviv,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1968212,23424852,Israel,1968212,IL
+273,Jerusalem,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1968222,23424852,Israel,1968222,IL
+274,Amman,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1968902,23424860,Jordan,1968902,JO
+275,Chelyabinsk,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/1997422,23424936,Russia,1997422,RU
+276,Khabarovsk,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2018708,23424936,Russia,2018708,RU
+277,Krasnodar,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2028717,23424936,Russia,2028717,RU
+278,Krasnoyarsk,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2029043,23424936,Russia,2029043,RU
+279,Samara,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2077746,23424936,Russia,2077746,RU
+280,Voronezh,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2108210,23424936,Russia,2108210,RU
+281,Yekaterinburg,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2112237,23424936,Russia,2112237,RU
+282,Irkutsk,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2121040,23424936,Russia,2121040,RU
+283,Kazan,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2121267,23424936,Russia,2121267,RU
+284,Moscow,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2122265,23424936,Russia,2122265,RU
+285,Nizhny Novgorod,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2122471,23424936,Russia,2122471,RU
+286,Novosibirsk,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2122541,23424936,Russia,2122541,RU
+287,Omsk,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2122641,23424936,Russia,2122641,RU
+288,Perm,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2122814,23424936,Russia,2122814,RU
+289,Rostov-on-Don,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2123177,23424936,Russia,2123177,RU
+290,Saint Petersburg,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2123260,23424936,Russia,2123260,RU
+291,Ufa,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2124045,23424936,Russia,2124045,RU
+292,Vladivostok,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2124288,23424936,Russia,2124288,RU
+293,Volgograd,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2124298,23424936,Russia,2124298,RU
+294,Karachi,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2211096,23424922,Pakistan,2211096,PK
+295,Lahore,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2211177,23424922,Pakistan,2211177,PK
+296,Multan,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2211269,23424922,Pakistan,2211269,PK
+297,Rawalpindi,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2211387,23424922,Pakistan,2211387,PK
+298,Faisalabad,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2211574,23424922,Pakistan,2211574,PK
+299,Muscat,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2268284,23424898,Oman,2268284,OM
+300,Nagpur,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2282863,23424848,India,2282863,IN
+301,Lucknow,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295377,23424848,India,2295377,IN
+302,Kanpur,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295378,23424848,India,2295378,IN
+303,Patna,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295381,23424848,India,2295381,IN
+304,Ranchi,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295383,23424848,India,2295383,IN
+305,Kolkata,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295386,23424848,India,2295386,IN
+306,Srinagar,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295387,23424848,India,2295387,IN
+307,Amritsar,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295388,23424848,India,2295388,IN
+308,Jaipur,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295401,23424848,India,2295401,IN
+309,Ahmedabad,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295402,23424848,India,2295402,IN
+310,Rajkot,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295404,23424848,India,2295404,IN
+311,Surat,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295405,23424848,India,2295405,IN
+312,Bhopal,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295407,23424848,India,2295407,IN
+313,Indore,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295408,23424848,India,2295408,IN
+314,Thane,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295410,23424848,India,2295410,IN
+315,Mumbai,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295411,23424848,India,2295411,IN
+316,Pune,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295412,23424848,India,2295412,IN
+317,Hyderabad,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295414,23424848,India,2295414,IN
+318,Bangalore,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295420,23424848,India,2295420,IN
+319,Chennai,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2295424,23424848,India,2295424,IN
+320,Mersin,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2323778,23424969,Turkey,2323778,TR
+321,Adana,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2343678,23424969,Turkey,2343678,TR
+322,Ankara,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2343732,23424969,Turkey,2343732,TR
+323,Antalya,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2343733,23424969,Turkey,2343733,TR
+324,Bursa,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2343843,23424969,Turkey,2343843,TR
+325,Diyarbakır,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2343932,23424969,Turkey,2343932,TR
+326,Eskişehir,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2343980,23424969,Turkey,2343980,TR
+327,Gaziantep,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2343999,23424969,Turkey,2343999,TR
+328,Istanbul,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2344116,23424969,Turkey,2344116,TR
+329,Izmir,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2344117,23424969,Turkey,2344117,TR
+330,Kayseri,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2344174,23424969,Turkey,2344174,TR
+331,Konya,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2344210,23424969,Turkey,2344210,TR
+332,Okinawa,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2345896,23424856,Japan,2345896,JP
+333,Daejeon,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2345975,23424868,Korea,2345975,KR
+334,Auckland,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2348079,23424916,New Zealand,2348079,NZ
+335,Albuquerque,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2352824,23424977,United States,2352824,US
+336,Atlanta,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2357024,23424977,United States,2357024,US
+337,Austin,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2357536,23424977,United States,2357536,US
+338,Baltimore,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2358820,23424977,United States,2358820,US
+339,Baton Rouge,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2359991,23424977,United States,2359991,US
+340,Birmingham,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2364559,23424977,United States,2364559,US
+341,Boston,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2367105,23424977,United States,2367105,US
+342,Charlotte,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2378426,23424977,United States,2378426,US
+343,Chicago,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2379574,23424977,United States,2379574,US
+344,Cincinnati,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2380358,23424977,United States,2380358,US
+345,Cleveland,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2381475,23424977,United States,2381475,US
+346,Colorado Springs,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2383489,23424977,United States,2383489,US
+347,Columbus,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2383660,23424977,United States,2383660,US
+348,Dallas-Ft. Worth,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2388929,23424977,United States,2388929,US
+349,Denver,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2391279,23424977,United States,2391279,US
+350,Detroit,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2391585,23424977,United States,2391585,US
+351,El Paso,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2397816,23424977,United States,2397816,US
+352,Fresno,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2407517,23424977,United States,2407517,US
+353,Greensboro,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2414469,23424977,United States,2414469,US
+354,Harrisburg,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2418046,23424977,United States,2418046,US
+355,Honolulu,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2423945,23424977,United States,2423945,US
+356,Houston,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2424766,23424977,United States,2424766,US
+357,Indianapolis,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2427032,23424977,United States,2427032,US
+358,Jackson,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2428184,23424977,United States,2428184,US
+359,Jacksonville,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2428344,23424977,United States,2428344,US
+360,Kansas City,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2430683,23424977,United States,2430683,US
+361,Las Vegas,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2436704,23424977,United States,2436704,US
+362,Long Beach,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2441472,23424977,United States,2441472,US
+363,Los Angeles,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2442047,23424977,United States,2442047,US
+364,Louisville,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2442327,23424977,United States,2442327,US
+365,Memphis,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2449323,23424977,United States,2449323,US
+366,Mesa,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2449808,23424977,United States,2449808,US
+367,Miami,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2450022,23424977,United States,2450022,US
+368,Milwaukee,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2451822,23424977,United States,2451822,US
+369,Minneapolis,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2452078,23424977,United States,2452078,US
+370,Nashville,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2457170,23424977,United States,2457170,US
+371,New Haven,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2458410,23424977,United States,2458410,US
+372,New Orleans,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2458833,23424977,United States,2458833,US
+373,New York,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2459115,23424977,United States,2459115,US
+374,Norfolk,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2460389,23424977,United States,2460389,US
+375,Oklahoma City,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2464592,23424977,United States,2464592,US
+376,Omaha,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2465512,23424977,United States,2465512,US
+377,Orlando,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2466256,23424977,United States,2466256,US
+378,Philadelphia,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2471217,23424977,United States,2471217,US
+379,Phoenix,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2471390,23424977,United States,2471390,US
+380,Pittsburgh,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2473224,23424977,United States,2473224,US
+381,Portland,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2475687,23424977,United States,2475687,US
+382,Providence,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2477058,23424977,United States,2477058,US
+383,Raleigh,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2478307,23424977,United States,2478307,US
+384,Richmond,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2480894,23424977,United States,2480894,US
+385,Sacramento,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2486340,23424977,United States,2486340,US
+386,St. Louis,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2486982,23424977,United States,2486982,US
+387,Salt Lake City,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2487610,23424977,United States,2487610,US
+388,San Antonio,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2487796,23424977,United States,2487796,US
+389,San Diego,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2487889,23424977,United States,2487889,US
+390,San Francisco,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2487956,23424977,United States,2487956,US
+391,San Jose,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2488042,23424977,United States,2488042,US
+392,Seattle,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2490383,23424977,United States,2490383,US
+393,Tallahassee,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2503713,23424977,United States,2503713,US
+394,Tampa,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2503863,23424977,United States,2503863,US
+395,Tucson,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2508428,23424977,United States,2508428,US
+396,Virginia Beach,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2512636,23424977,United States,2512636,US
+397,Washington,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/2514815,23424977,United States,2514815,US
+398,Osaka,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/15015370,23424856,Japan,15015370,JP
+399,Kyoto,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/15015372,23424856,Japan,15015372,JP
+400,Delhi,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/20070458,23424848,India,20070458,IN
+401,United Arab Emirates,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424738,1,United Arab Emirates,23424738,AE
+402,Algeria,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424740,1,Algeria,23424740,DZ
+403,Argentina,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424747,1,Argentina,23424747,AR
+404,Australia,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424748,1,Australia,23424748,AU
+405,Austria,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424750,1,Austria,23424750,AT
+406,Bahrain,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424753,1,Bahrain,23424753,BH
+407,Belgium,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424757,1,Belgium,23424757,BE
+408,Belarus,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424765,1,Belarus,23424765,BY
+409,Brazil,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424768,1,Brazil,23424768,BR
+410,Canada,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424775,1,Canada,23424775,CA
+411,Chile,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424782,1,Chile,23424782,CL
+412,Colombia,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424787,1,Colombia,23424787,CO
+413,Denmark,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424796,1,Denmark,23424796,DK
+414,Dominican Republic,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424800,1,Dominican Republic,23424800,DO
+415,Ecuador,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424801,1,Ecuador,23424801,EC
+416,Egypt,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424802,1,Egypt,23424802,EG
+417,Ireland,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424803,1,Ireland,23424803,IE
+418,France,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424819,1,France,23424819,FR
+419,Ghana,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424824,1,Ghana,23424824,GH
+420,Germany,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424829,1,Germany,23424829,DE
+421,Greece,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424833,1,Greece,23424833,GR
+422,Guatemala,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424834,1,Guatemala,23424834,GT
+423,Indonesia,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424846,1,Indonesia,23424846,ID
+424,India,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424848,1,India,23424848,IN
+425,Israel,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424852,1,Israel,23424852,IL
+426,Italy,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424853,1,Italy,23424853,IT
+427,Japan,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424856,1,Japan,23424856,JP
+428,Jordan,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424860,1,Jordan,23424860,JO
+429,Kenya,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424863,1,Kenya,23424863,KE
+430,Korea,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424868,1,Korea,23424868,KR
+431,Kuwait,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424870,1,Kuwait,23424870,KW
+432,Lebanon,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424873,1,Lebanon,23424873,LB
+433,Latvia,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424874,1,Latvia,23424874,LV
+434,Oman,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424898,1,Oman,23424898,OM
+435,Mexico,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424900,1,Mexico,23424900,MX
+436,Malaysia,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424901,1,Malaysia,23424901,MY
+437,Nigeria,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424908,1,Nigeria,23424908,NG
+438,Netherlands,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424909,1,Netherlands,23424909,NL
+439,Norway,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424910,1,Norway,23424910,NO
+440,New Zealand,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424916,1,New Zealand,23424916,NZ
+441,Peru,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424919,1,Peru,23424919,PE
+442,Pakistan,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424922,1,Pakistan,23424922,PK
+443,Poland,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424923,1,Poland,23424923,PL
+444,Panama,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424924,1,Panama,23424924,PA
+445,Portugal,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424925,1,Portugal,23424925,PT
+446,Qatar,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424930,1,Qatar,23424930,QA
+447,Philippines,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424934,1,Philippines,23424934,PH
+448,Puerto Rico,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424935,1,Puerto Rico,23424935,PR
+449,Russia,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424936,1,Russia,23424936,RU
+450,Saudi Arabia,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424938,1,Saudi Arabia,23424938,SA
+451,South Africa,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424942,1,South Africa,23424942,ZA
+452,Singapore,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424948,1,Singapore,23424948,SG
+453,Spain,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424950,1,Spain,23424950,ES
+454,Sweden,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424954,1,Sweden,23424954,SE
+455,Switzerland,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424957,1,Switzerland,23424957,CH
+456,Thailand,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424960,1,Thailand,23424960,TH
+457,Turkey,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424969,1,Turkey,23424969,TR
+458,United Kingdom,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424975,1,United Kingdom,23424975,GB
+459,Ukraine,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424976,1,Ukraine,23424976,UA
+460,United States,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424977,1,United States,23424977,US
+461,Venezuela,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424982,1,Venezuela,23424982,VE
+462,Vietnam,"{'code': 12, 'name': 'Country'}",http://where.yahooapis.com/v1/place/23424984,1,Vietnam,23424984,VN
+463,Petaling,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/56013632,23424901,Malaysia,56013632,MY
+464,Hulu Langat,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/56013645,23424901,Malaysia,56013645,MY
+465,Ahsa,"{'code': 9, 'name': 'Unknown'}",http://where.yahooapis.com/v1/place/56120136,23424938,Saudi Arabia,56120136,SA
+466,Okayama,"{'code': 7, 'name': 'Town'}",http://where.yahooapis.com/v1/place/90036018,23424856,Japan,90036018,JP
