@@ -33,28 +33,50 @@ twitter_client = API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=Tr
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LUMEN])
 
 # Dash layout
-app.layout = html.Div([
-    dcc.Dropdown(id='tree-map-dropdown',
-                 placeholder='Select Country(-ies)',
-                 options=options,
-                 multi=True,
-                 value='Worldwide, '),
-    dbc.Button(id='button', children='Submit',
-               n_clicks=0, color='dark'),
-    html.Div(dcc.Loading([
+app.layout = html.Div([html.Div([
+    html.Br(), html.Div([html.H1('Twitter Trends by Country', style={'display': 'inline',
+                                                                     'textAlign': 'center',
+                                                                     'margin': 0,
+                                                                     'width': '100px',
+                                                                     'left': '50%'})], style={'textAlign': 'center'}),
+    html.Br(),
+    html.Div([
+        dcc.Dropdown(id='tree-map-dropdown',
+                     placeholder='Select Country(-ies)',
+                     options=options,
+                     multi=True)],
+        style={
+            'verticalAlign': 'top',
+            'left': '50%',
+            'margin-left': '375px',
+            'margin-right': '375px'}),
+    html.Div([
+        dbc.Button(id='button', children='Submit',
+                   n_clicks=0, color='dark')],
+        style={'verticalAlign': 'top',
+               'left': '50%',
+               'padding-top': '5px',
+               'margin-left': '375px',
+               'margin-right': '375px'})]),
+    html.Br(),
+    html.Div([dcc.Loading([
         dcc.Graph(id='chart',
                   figure=go.Figure({'layout':
                                         {'paper_bgcolor': '#eeeeee',
                                          'plot_bgcolor': '#eeeeee'}},
-                                   {'config': {'displayModeBar': False}},),
+                                   {'config': {'displayModeBar': False}}, ),
                   config={'displayModeBar': False})
-    ]))])
+    ])])])
 
 
 @app.callback(Output('chart', 'figure'),
               [Input('button', 'n_clicks')],
               [State('tree-map-dropdown', 'value')])
 def treemap_table(n_clicks, locations):
+    if not locations:
+        locations = []
+    else:
+        pass
     countries = [df_2['name'][df_2['woeid'] == woeid].values[0] for woeid in locations]
     n_countries = len(countries)
 
