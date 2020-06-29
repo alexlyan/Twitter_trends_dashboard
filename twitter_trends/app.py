@@ -37,16 +37,16 @@ app.layout = html.Div([
     dcc.Dropdown(id='tree-map-dropdown',
                  placeholder='Select Country(-ies)',
                  options=options,
-                 multi=True),
+                 multi=True,
+                 value='Worldwide, '),
     dbc.Button(id='button', children='Submit',
                n_clicks=0, color='dark'),
     html.Div(dcc.Loading([
         dcc.Graph(id='chart',
                   figure=go.Figure({'layout':
                                         {'paper_bgcolor': '#eeeeee',
-                                         'plot_bgcolor': '#eeeeee',
-                                         'template': 'none'}},
-                                   {'config': {'displayModeBar': False}}),
+                                         'plot_bgcolor': '#eeeeee'}},
+                                   {'config': {'displayModeBar': False}},),
                   config={'displayModeBar': False})
     ]))])
 
@@ -86,7 +86,15 @@ def treemap_table(n_clicks, locations):
                              path=['country', 'city', 'name'],
                              values='tweet_volume',
                              color='tweet_volume',
-                             color_continuous_scale='RdBu')
+                             color_continuous_scale='RdBu',
+                             hover_data=["name", "tweet_volume"])
+
+        # hover data
+
+        sub_fig.layout.margin = {'b': 5, 't': 5}
+        sub_fig.data[0]['hovertemplate'] = '<b>%{label}</b><br>Tweet volume: %{value}'
+        sub_fig.data[0][
+            'texttemplate'] = '<b>%{label}</b><br><br>Tweet volume: %{value}<br>%{percentParent} of %{parent}'
 
         fig.add_trace(sub_fig.to_dict()['data'][0], row=index + 1, col=1)
 
