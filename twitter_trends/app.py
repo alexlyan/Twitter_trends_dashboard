@@ -13,6 +13,7 @@ import dash_core_components as dcc
 from plotly import express as px
 import plotly.graph_objs as go
 from plotly.subplots import make_subplots
+from dash_table.FormatTemplate import Format
 
 # import libraries for data processing
 import pandas as pd
@@ -29,16 +30,20 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 
 twitter_client = API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
+TABLE_COLS = ['name', 'city', 'country', 'tweet_volume']
+
 # Style sheet and Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LUMEN])
 
 # Dash layout
 app.layout = html.Div([html.Div([
-    html.Br(), html.Div([html.H1('Twitter Trends by Country', style={'display': 'inline',
-                                                                     'textAlign': 'center',
-                                                                     'margin': 0,
-                                                                     'width': '100px',
-                                                                     'left': '50%'})], style={'textAlign': 'center'}),
+    html.Br(), html.Div([html.H1('Twitter Trends by Country',
+                                 style={'display': 'inline',
+                                        'textAlign': 'center',
+                                        'margin': 0,
+                                        'width': '100px',
+                                        'left': '50%'})],
+                        style={'textAlign': 'center'}),
     html.Br(),
     html.Div([
         dcc.Dropdown(id='tree-map-dropdown',
@@ -66,10 +71,36 @@ app.layout = html.Div([html.Div([
                                          'plot_bgcolor': '#eeeeee'}},
                                    {'config': {'displayModeBar': False}}, ),
                   config={'displayModeBar': False})
-    ])])])
+    ])]),
+    html.Br(),
+    html.Br(),
+    dbc.Col(lg=10),
+    html.Div([DataTable(
+        id='table',
+        style_header={'textAlign': 'center'},
+        style_cell={'font-family': 'Source Sans Pro',
+                    'minWidth': 100,
+                    'textAlign': 'left'},
+        export_format='csv',
+        sort_action='native',
+        columns=[{'name': i.title(), 'id': i,
+                  'type': 'numeric' if i == 'Tweet Volume' else None,
+                  'format': Format(group=',') if i == 'Tweet Volume' else None}
+                 for i in TABLE_COLS],
+        data=pd.DataFrame({
+            k: ['' for i in range(10)] for k in TABLE_COLS}).to_dict('rows'),
+    )]
+        ,
+    style={
+        'margin-left': 50,
+        'margin-right': 50
+    }
+    )
+])
 
 
-@app.callback(Output('chart', 'figure'),
+@app.callback([Output('table', 'data'),
+               Output('chart', 'figure')],
               [Input('button', 'n_clicks')],
               [State('tree-map-dropdown', 'value')])
 def treemap_table(n_clicks, locations):
@@ -77,6 +108,11 @@ def treemap_table(n_clicks, locations):
         locations = []
     else:
         pass
+
+    # original dataframe for table data
+    dataframe_for_table = pd.DataFrame(
+        columns=['name', 'city', 'country', 'url', 'promoted_content', 'query', 'tweet_volume'])
+    # country list
     countries = [df_2['name'][df_2['woeid'] == woeid].values[0] for woeid in locations]
     n_countries = len(countries)
 
@@ -120,14 +156,21 @@ def treemap_table(n_clicks, locations):
 
         fig.add_trace(sub_fig.to_dict()['data'][0], row=index + 1, col=1)
 
-        fig.layout.height = 400 * n_countries
-        fig.layout.template = 'none'
-        fig.layout.margin = {'t': 40, 'b': 40}
-        fig.layout.paper_bgcolor = '#eeeeee'
-        fig.layout.plot_bgcolor = '#eeeeee'
+        # Creating table
 
-    return fig.to_dict()
+        dataframe_for_table = pd.concat([dataframe_for_table, df_1], axis=0).reset_index().drop('index', axis=1)
+        dataframe_for_table = dataframe_for_table[TABLE_COLS]
+
+    # layout for treemap
+
+    fig.layout.height = 400 * n_countries
+    fig.layout.template = 'none'
+    fig.layout.margin = {'t': 40, 'b': 40}
+    fig.layout.paper_bgcolor = '#eeeeee'
+    fig.layout.plot_bgcolor = '#eeeeee'
+
+    return dataframe_for_table.to_dict('rows'), fig.to_dict()
 
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(port='8888')
