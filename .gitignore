@@ -1,4 +1,8 @@
 /Twitter_Dash_env
+test_figure
+twitter_credentials.py
+/__pycache__
+/.ipynb_checkpoints
 /twitter_trends/__pycache__
 /twitter_trends/.ipynb_checkpoints
 /twitter_trends/Untitled.ipynb
