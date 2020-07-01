@@ -35,6 +35,9 @@ TABLE_COLS = ['name', 'city', 'country', 'tweet_volume']
 # Style sheet and Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LUMEN])
 
+# variable for gunicorn
+server = app.server
+
 # Dash layout
 app.layout = html.Div([html.Div([
     html.Br(), html.Div([html.H1('Twitter Trends by Country',
@@ -173,4 +176,4 @@ def treemap_table(n_clicks, locations):
 
 
 if __name__ == '__main__':
-    app.run_server(port='8888')
+    app.run_server()
