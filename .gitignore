@@ -1,3 +1,7 @@
+*.pyc
+.DS_Store
+.env
+__pycache__
 /Twitter_Dash_env
 /twitter_trends/__pycache__
 /twitter_trends/.ipynb_checkpoints
