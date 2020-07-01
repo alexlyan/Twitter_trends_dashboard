@@ -3,7 +3,7 @@
 
 link to dashboard:
 
-twitter-trend-dash.herokuapp.com
+<a href='twitter-trend-dash.herokuapp.com'> twitter-trend-dash.herokuapp.com </a>
 
 <p> There is an option to extract csv file </p>
 
