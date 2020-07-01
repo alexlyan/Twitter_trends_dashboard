@@ -21,9 +21,9 @@ import numpy as np
 
 # import Flask
 
-import flask
+# import flask
 
-server = flask.Flask(__name__)
+# server = flask.Flask(__name__)
 
 # Instances for preprocessing
 df_2 = pd.read_csv('twitter_trend_location.csv')
@@ -39,7 +39,9 @@ twitter_client = API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=Tr
 TABLE_COLS = ['name', 'city', 'country', 'tweet_volume']
 
 # Style sheet and Dash app
-app = dash.Dash(__name__, server=server, external_stylesheets=[dbc.themes.LUMEN])
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LUMEN])
+
+server = app.server
 
 # Dash layout
 app.layout = html.Div([html.Div([
