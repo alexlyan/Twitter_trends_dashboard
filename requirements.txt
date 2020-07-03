@@ -8,10 +8,7 @@ Automat==20.2.0
 autopep8==1.5
 backcall==0.1.0
 beautifulsoup4==4.8.2
-<<<<<<< HEAD
-=======
-Brotli==1.0.7
->>>>>>> ba07367c1fee45d15880d1f8be9666c61bfebbcf
+bleach==3.1.0
 bs4==0.0.1
 certifi==2019.11.28
 cffi==1.14.0
